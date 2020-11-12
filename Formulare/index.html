@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulare</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Formulare</h1>
+	<form action="index.html">
+		<label>Nume de utilizator</label><br>
+		<input type="Text" name="utilizator"><br><br>
+		<label>Parolă</label><br>
+		<input type="Password" name="parola">
+		<br><br>
+
+		<fieldset style="width: 10%">
+			<legend>Alege-ți materia preferată</legend>
+			<input type="radio" name="materie" value = "matematica">
+			<label>Matematică</label><br>
+			<input type="radio" name="materie" value = "informatica">
+			<label>Informatică</label><br>
+			<input type="radio" name="materie" value = "limba romana">
+			<label>Limba română</label><br>
+			<input type="radio" name="materie" valua = "alta">
+			<label>Alta</label>
+		</fieldset>
+		<fieldset style="width: 10%;">
+			<legend>Pasiuni</legend>
+			<label>Somnul</label>
+			<input type="checkbox" name="somn1" value="somnul"><br>
+			<label>Somnul</label>
+			<input type="checkbox" name="somn1" value="somnul"><br>
+			<label>Somnul</label>
+			<input type="checkbox" name="somn1" value="somnul"><br>
+			<label>Somnul</label>
+			<input type="checkbox" name="somn1" value="somnul"><br>
+			<label>Somnul</label>
+			<input type="checkbox" name="somn1" value="somnul"><br>
+		</fieldset>
+		<br>
+
+		<fieldset style="width: 20%;">
+			<legend>E-mail</legend>
+			<label>Adresă e-mail</label><br>
+			<input type="e-mail" name="e-mail"><br>
+			<label>Conținut e-mail</label><br>
+			<input type="Text" name="continut"><br>
+			<label>Atașament (doar unul.... bugetul e mic, ok?!?!?)</label><br>
+			<input type="file" name="fisier">
+		</fieldset>
+		<br>
+		<input type="reset" name="resetare">
+		<input type="submit">
+	</form>
+</body>
+</html>
